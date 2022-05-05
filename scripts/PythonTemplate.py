@@ -32,7 +32,7 @@ class ROSPyTemplate:
 
 if __name__ == '__main__':
 
-    rospy.init_node('number_counter')
+    rospy.init_node('rospy_template')
     rospy.loginfo("[rospy_template] Node Starts")
 
     rate = rospy.Rate(100)  # 100hz = 10ms
