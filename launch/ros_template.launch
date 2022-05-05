@@ -1,0 +1,3 @@
+<launch>
+  <node name="pubsub_template" pkg="ros_template" type="pubsub_template" output="screen"/>
+</launch>

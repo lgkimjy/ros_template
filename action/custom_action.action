@@ -1,0 +1,9 @@
+#goal         
+int64 data_a
+float64 data_b
+---
+#result
+int64 result_data
+---
+#feedback
+float64 feedback_data
