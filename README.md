@@ -1,2 +1,2 @@
 # ros_template
-ros cpp template (OOP)
+ros cpp/python template (OOP)

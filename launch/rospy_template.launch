@@ -1,0 +1,3 @@
+<launch>
+  <node name="rospy_template"  pkg="ros_template"  type="PythonTemplate.py" output="screen"/>
+</launch>

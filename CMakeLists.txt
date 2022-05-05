@@ -30,6 +30,10 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+catkin_install_python(PROGRAMS scripts/PythonTemplate.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 add_executable(roscpp_template src/main_node.cpp src/Template.cpp)
 target_link_libraries(roscpp_template ${catkin_LIBRARIES})
 add_dependencies(roscpp_template ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
